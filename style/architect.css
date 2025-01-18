@@ -116,6 +116,33 @@ main> section{
 .features{
     color: #FF900E;
 }
+/* fact related style  */
+.facts-conteiner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.fact{
+    border: 1px solid salmon;
+    width: 240px;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fact-number{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+.fact-name{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.fact-discription{
+    max-width: 540px;
+}
 /* responsive media query */
 @media screen and (max-width:576px) {
     .navber, .nav-link, .team-section{
